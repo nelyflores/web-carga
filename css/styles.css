@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary-color) !important;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/*--variable define --*/
+:root {
+    --primary-color: #0CA669;
+    --black-color: #000;
+    --white-color: #fff;
+    --primary-font: 'Nunito Sans', sans-serif;
+    --secondary-font: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--secondary-font);
+    font-size: 100%;
+    font-weight: 500;
+}
+
+/*Button */
+.button-white {
+    color: var(--white-color);
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 1.6rem;
+    border: 1px solid var(--white-color);
+    line-height: 39px;
+}
+
+.button-white:hover {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+.button-green {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.62rem;
+    border-color: var(--primary-color);
+}
+
+.button-green:hover {
+    color: var(--primary-color);
+    background-color: var(--white-color);
+}
+
+h1 {
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 63px;
+
+}
+
+h2 {
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    color: var(--black-color);
+}
+
+.text-green {
+    color: var(--primary-color);
+}
+
+.text-black {
+    color: var(--black-color);
+}
+
+.text-main {
+    font-weight: 400;
+    font-size: 0.93rem;
+    text-align: justify;
+}
+
+/* Navbar */
+.navbar {
+    height: 72px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.nav-link:hover {
+    color: var(--white-color) !important;
+}
+
+.navigation-wrap {
+    background-color: var(--black-color);
+}
+
+.navbar-toggler {
+    background-color: var(--white-color);
+}
+
+.nav-link {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    color: var(--white-color);
+    font-size: 1rem;
+}
+
+.nav-link:focus {
+    color: var(--primary-color);
+}
+
+/*Embarcador
+Hero*/
+.top-banner {
+    background: url(../img/bg-banner.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding: 15.875rem 0 2rem 0;
+}
+
+.bottom-banner {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    height: 48px;
+}
+
+/*About*/
+.about-column {
+    margin-left: 70px;
+}
+
+/*Coneccting*/
+.design-connecting {
+    background-color: var(--primary-color);
+}
+
+/*Partner*/
+.partner-column {
+    margin-right: 70px;
+}
+
+/*charge*/
+.charge-banner {
+    background: url(../img/datos.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding: 1.81rem;
+}
+
+.number-charges {
+    font-size: 6.25rem;
+}
+
+/*whatsapp*/
+.whatsapp-banner {
+    background-color: var(--black-color);
+    height: 8.1rem;
+}
+
+.whatsapp-span {
+    font-size: 1.75rem;
+}
+
+/*Blog*/
+.section-blog {
+    margin-bottom: 13rem;
+}
+
+.card-body {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.12rem;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 0.87rem;
+    text-align: justify;
+}
+
+.card-body a {
+    color: var(--white-color);
+}
+
+.card-body a:hover {
+    color: var(--white-color) !important;
+}
+
+/*footer*/
+footer {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+.footer-text {
+    font-size: 0.87rem;
+}
+
+.footer-terms {
+    font-size: 1.12rem;
+    color: var(--white-color);
+    text-decoration: unset;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.social-icon ul {
+    text-align: center;
+}
+
+.social-icon ul li {
+    margin-bottom: 4px;
+}
+
+.social-icon ul li:hover a {
+    background-color: var(--white-color);
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+.social-icon ul li:hover a i {
+    color: var(--primary-color);
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.social-icon ul li a {
+    background-color: var(--primary-color);
+    border: 1px solid transparent;
+    display: block;
+    height: 70px;
+    width: 70px;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    transition: all 400ms ease-out 0s;
+}
+
+.social-icon ul li a i {
+    color: var(--white-color);
+    display: inline-block;
+    font-size: 32px;
+    line-height: 70px;
+    margin: 0;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    transition: all 400ms ease-out 0s;
+}
+
+.social-icon ul li a i :hover {
+    color: var(--white-color);
+}
+
+@media (max-width: 768px) {
+    .social-icon ul li a {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+@media (max-width: 768px) {
+    .social-icon ul li a i {
+        line-height: 55px;
+        font-size: 25px;
+    }
+}
+
+/*Transportista
+Hero*/
+.top-banner-transportista {
+    background: url(../img/slider-transportista.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding: 15.875rem 0 2rem 0;
+}
+
+.text-connecting {
+    font-size: 1.31rem;
+}
+
+.text-connecting-regular {
+    font-weight: 400;
+    font-size: 1.12rem;
+}
+
+/*Blog
+Hero*/
+.top-banner-blog {
+    background: url(../img/blog.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding: 15.875rem 0 2rem 0;
+}
+
+/* FAQ */
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../img/icon-acordion-close.svg);
+    transform: rotate(-180deg);
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(../img/icon-acordion.svg);
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    box-shadow: none;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.accordion-button {
+    color: var(--black-color);
+    font-size: 28px;
+    font-weight: 600;
+}
