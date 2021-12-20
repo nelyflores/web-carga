@@ -73,6 +73,12 @@ body {
     background-color: var(--white-color);
 }
 
+.button-white-home {
+    border: 1px var(--primary-color);
+    color: var(--primary-color);
+    background: var(--white-color);
+}
+
 h1 {
     color: var(--white-color);
     font-weight: 500;
@@ -136,6 +142,18 @@ h2 {
 
 .nav-link:focus {
     color: var(--primary-color);
+}
+
+/*Home*/
+.home {
+    background: url(../img/slider.png) no-repeat center center;
+    background-size: cover;
+    min-height: 88vh;
+    display: flex;
+    align-items: end;
+    padding-bottom: 50px;
+    justify-content: center;
+
 }
 
 /*Embarcador
