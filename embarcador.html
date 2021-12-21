@@ -167,9 +167,59 @@
             <div class="container">
                 <div class="row pt-5">
                     <h2>Ellos <span class="text-green">encontraron una solución</span> como la que estás buscando. </h2>
+                    <div class="container text-center my-3">
+                        <div class="row mx-auto my-auto d-flex justify-content-end">
+                            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="carousel-item active">
+                                        <div class="col-3">
+                                            <img src="./img/carousel/unilever.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-3">
+                                            <img src="./img/carousel/procter-gamble.png" class="img-fluid mx-auto">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-3">
+                                            <img src="./img/carousel/grupo-modelo.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-3">
+                                            <img src="./img/carousel/mattel.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-3">
+                                            <img src="./img/carousel/waldos.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-3">
+                                            <img src="./img/carousel/ze-ventures.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-3">
+                                            <img src="./img/carousel/officemax.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel"
+                                    role="button" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                </a>
+                                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel"
+                                    role="button" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </div>
     </section>
     <!--whatsapp-->
@@ -278,8 +328,9 @@
                         <a class="text-white footer-text" href="tel:55-510-8654"> <i class="fas fa-phone-alt"></i>Tel.
                             55-510-8654</a>
                         <div class="mt-4 d-flex justify-content-between">
-                            <a href="" class="footer-terms text-decoration-underline">Terminos y Condiciones</a>
-                            <a href="" class="footer-terms text-decoration-underline">Privacidad</a>
+                            <a href="terminosycondiciones.html" class="footer-terms text-decoration-underline">Terminos
+                                y Condiciones</a>
+                            <a href="avisoprivacidad.html" class="footer-terms text-decoration-underline">Privacidad</a>
                         </div>
                     </div>
                     <div class="col-md-6 social-icon">
@@ -314,18 +365,8 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script>
-        wow = new WOW(
-            {
-                boxClass: 'wow',      // default
-                animateClass: 'animated', // default
-                offset: 0,          // default
-                mobile: true,       // default
-                live: true        // default
-            }
-        )
-        wow.init();
-    </script>
+    <script src="./js/main.js"></script>
+
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
