@@ -143,8 +143,8 @@ h2 {
     background-color: var(--black-color);
 }
 
-.navbar-toggler {
-    background-color: var(--white-color);
+.navbar-toggler i {
+    color: var(--white-color);
 }
 
 .nav-link {
@@ -156,6 +156,10 @@ h2 {
 
 .nav-link:focus {
     color: var(--primary-color);
+}
+
+.navbar-collapse {
+    background-color: #000;
 }
 
 /*Home*/
