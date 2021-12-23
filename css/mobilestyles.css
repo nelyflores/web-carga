@@ -183,4 +183,32 @@
         padding-left: 12px;
     }
 
+    .home {
+        background: url(../img/slider-mobile.png) no-repeat 0 -20px;
+        background-size: cover;
+        min-height: 100vh;
+        padding-bottom: 0;
+
+
+    }
+
+    .botones-home {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botones-home-space {
+        flex-direction: column;
+        padding-bottom: 64px;
+        width: auto;
+    }
+
+    .bottom-banner {
+        position: initial;
+    }
+
+    .button-home-embarcador {
+        margin-bottom: 37px;
+    }
+
 }
