@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mobilestyles.css">
 </head>
 
 <body>
@@ -42,7 +43,9 @@
     <section class="hero-embarcador">
         <div class="container-fluid top-banner-transportista">
             <div class="container">
-                <div class="col-sm-4 ps-5 ms-3">
+                <h1 class=" d-sm-block d-md-none">Únete a la comunidad más grande de transportistas y mantén tu
+                    camión en movimiento.</h1>
+                <div class="col-sm-4 ps-5 ms-3 content-button-embarcador">
                     <button class="button-white">REGíSTRATE AHORA</button>
                 </div>
             </div>
@@ -104,12 +107,12 @@
     <section class="container-fluid">
         <div class="container">
             <div class="row mb-5 mt-5 pt-5 pb-5">
-                <div class="col-md-6 d-flex align-items-start flex-column">
+                <div class="col-md-6 d-flex align-items-start flex-column content-testimonial">
                     <img src="./img/rating.png" alt="rating" class="mb-4">
                     <p class="text-testimonial">“Con Sendengo tengo apoyo de un coordinador al asignar mi viaje,
                         monitoreo y comunicación continua. Los procesos son ágiles y muy sencillos eso sin duda nos
                         ayuda a crecer de manera constante y segura”</p>
-                    <div class="d-flex align-items-center mt-auto">
+                    <div class="d-flex align-items-center mt-auto content-image-testimonial">
                         <img src="./img/testimonial.png" alt="transportista">
                         <div class="ms-3">
                             <p class="text-testimonial mb-0 text-green semi-bold">José Carlos Morales</p>
@@ -125,7 +128,7 @@
                         permitido tener una mucho mejor calidad de vida y pasar más tiempo con mi familia. Además, desde
                         que trabajo con Sendengo siempre tengo dinero para darle mantenimiento a mi camión, estoy
                         ampliado mi casa y hasta cambie de coche.”</p>
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center content-image-testimonial">
                         <img src="./img/cristobal.png" alt="transportista" class="">
                         <div class="ms-3">
                             <p class="text-testimonial mb-0 text-green semi-bold ">Cristóbal Medina</p>
@@ -153,10 +156,11 @@
                     <img src="./img/mapa.png" alt="rutas mexico" class="img-fluid w-100">
                 </div>
                 <div class="col-md-6">
-                    <h2><span class="text-green">Encontramos la ruta perfecta</span> para ti.</h2>
-                    <p>Manejamos rutas con destinos a todo el territorio nacional.
+                    <h2><span class="text-green ">Encontramos la ruta perfecta</span> para ti.</h2>
+                    <p class="text-main">Manejamos rutas con destinos a todo el territorio nacional.
                     </p>
-                    <p> A través de nuestra aplicación y de nuestros equipos asignación consigue de manera rápida y
+                    <p class="text-main"> A través de nuestra aplicación y de nuestros equipos asignación consigue de
+                        manera rápida y
                         sencilla cargas a diferentes partes del país. </p>
                     <p>¡Muévete con nosotros!</p>
                 </div>
@@ -164,7 +168,7 @@
         </div>
     </section>
     <!--Carousel-->
-    <section class="container-fluid pb-5">
+    <section class="container-fluid pb-5 carrusel-transportista">
         <div class="container pb-3">
             <div class="row">
                 <h2 class="pb-3">Te llevamos <span class="text-green text-center">a cargar </span> con los grandes
@@ -174,37 +178,37 @@
                         <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner" role="listbox">
                                 <div class="carousel-item active">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-sm-6">
                                         <img src="./img/carousel/unilever.png" class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-sm-6">
                                         <img src="./img/carousel/procter-gamble.png" class="img-fluid mx-auto">
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-sm-6">
                                         <img src="./img/carousel/grupo-modelo.png" class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-sm-6">
                                         <img src="./img/carousel/mattel.png" class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-sm-6">
                                         <img src="./img/carousel/waldos.png" class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-sm-6">
                                         <img src="./img/carousel/ze-ventures.png" class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-sm-6">
                                         <img src="./img/carousel/officemax.png" class="img-fluid">
                                     </div>
                                 </div>
@@ -226,7 +230,7 @@
     <!--whatsapp-->
     <section>
         <div class="container-fluid whatsapp-banner d-flex align-items-center">
-            <div class="container d-flex justify-content-between">
+            <div class="container d-flex justify-content-between conten-whats-transportista">
                 <div>
                     <h2 class="text-white d-inline">Es muy fácil darte de alta</h2>
                     <span class="text-white whatsapp-span text-center"><i
@@ -240,7 +244,7 @@
     <!--app-->
     <section class="container-fluid app">
         <div class="row ">
-            <div class="col-md-6 ps-5 d-flex align-items-center">
+            <div class="col-md-6 ps-5 d-flex align-items-center content-app">
                 <div class="container">
                     <p class="ps-2">Descargar nuestra app en la Google store para andriod. </p>
                     <img src="./img/google-play-badge-1.png" alt="google play" class="mx-auto d-block">

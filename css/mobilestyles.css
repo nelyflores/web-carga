@@ -79,4 +79,73 @@
         margin-top: 30px;
     }
 
+    .top-banner-transportista {
+        background: url(../img/blog/slider-transportista-mobile.png) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 42vh;
+        background-position: -133px 0px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .top-banner-transportista h1 {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .content-button-embarcador {
+        padding: 0 !important;
+        margin-left: 0 !important;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px
+    }
+
+    .text-connecting-regular {
+        font-size: 18px !important;
+        font-weight: 400;
+        margin-top: 19px
+    }
+
+    .content-testimonial {
+        margin-bottom: 70px;
+    }
+
+    .content-image-testimonial {
+        margin-top: 40px !important;
+    }
+
+    .rutas h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 40px;
+        margin-top: 45px;
+    }
+
+    .carrusel-transportista h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .conten-whats-transportista {
+        flex-direction: column;
+    }
+
+    .conten-whats-transportista h2 {
+        display: inline;
+    }
+
+    .whatsapp-banner {
+        margin-bottom: 0;
+    }
+
+    .content-app {
+        padding: 0 !important;
+        margin-top: 80px;
+        margin-bottom: 64px;
+    }
+
 }
