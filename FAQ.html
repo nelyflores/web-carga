@@ -27,10 +27,10 @@
                 </button>
                 <div class="collapse navbar-collapse align-self-stretch" id="navbarNavAltMarkup">
                     <div class="navbar-nav mx-auto  align-self-stretch">
-                        <a class="nav-link pt-4 pe-3 active" aria-current="page" href="embarcador.html">Embarcador</a>
+                        <a class="nav-link pt-4 pe-3" aria-current="page" href="embarcador.html">Embarcador</a>
                         <a class="nav-link pt-4 pe-3" href="transportista.html">Transportista</a>
                         <a class="nav-link pt-4 pe-3" href="blog.html">Blog</a>
-                        <a class="nav-link pt-4 pe-3" href="FAQ.html">Preguntas Frecuentes</a>
+                        <a class="nav-link pt-4 pe-3 active" href="FAQ.html">Preguntas Frecuentes</a>
                         <a class="nav-link pt-4 pe-3" href="#">Registrarse</a>
                         <a class="nav-link pt-4 pe-3" href="#">Iniciar sesión</a>
                     </div>
@@ -223,15 +223,73 @@
     </section>
     <!--Registrate-->
     <section class="mt-5 mb-5 pt-5 pb-5">
-        <div class="container-fluid whatsapp-banner d-flex align-items-center">
-            <div class="container">
-                <h2 class="text-white d-inline">Contáctanos y carga con nosotros </h2>
-                <span class="text-white whatsapp-span text-center"><i
-                        class="fas fa-arrow-right navbar-toggler-icon"></i></span>
-                <button class="button-white px-3 py-2"> <i class="fab fa-whatsapp me-3"></i>REGÍSTRATE</button>
+        <div class="container-fluid whatsapp-banner d-flex ">
+            <div class="container d-flex align-items-center justify-content-between">
+                <h2 class=" text-white d-inline">Contáctanos y carga con nosotros </h2>
+                <button class="button-green"> <i class="fab fa-whatsapp me-3"></i>REGÍSTRATE</button>
             </div>
         </div>
     </section>
+    <!--Carusel-->
+    <section class="container-fluid pb-5">
+        <div class="container pb-3">
+            <div class="row">
+                <h2 class="pb-3 carousel-faq">Clientes que confían en nosotros </h2>
+                <div class="container text-center my-3">
+                    <div class="row mx-auto my-auto d-flex justify-content-end">
+                        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="col-3">
+                                        <img src="./img/carousel/unilever.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-3">
+                                        <img src="./img/carousel/procter-gamble.png" class="img-fluid mx-auto">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-3">
+                                        <img src="./img/carousel/grupo-modelo.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-3">
+                                        <img src="./img/carousel/mattel.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-3">
+                                        <img src="./img/carousel/waldos.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-3">
+                                        <img src="./img/carousel/ze-ventures.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-3">
+                                        <img src="./img/carousel/officemax.png" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--Footer-->
     <footer class="pt-5 pb-5">
         <div class="container-fluid">
@@ -278,6 +336,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

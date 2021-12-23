@@ -65,8 +65,9 @@ body {
     color: var(--white-color);
     background-color: var(--primary-color);
     font-weight: 600;
-    font-size: 1.62rem;
+    font-size: 1.625rem;
     border-color: var(--primary-color);
+    padding: 1.0625rem 2.3125rem;
 }
 
 .button-green:hover {
@@ -125,6 +126,11 @@ h2 {
 }
 
 .navbar .navbar-nav .nav-link:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.navbar .navbar-nav .nav-link.active {
     background-color: var(--primary-color);
     color: var(--white-color);
 }
@@ -244,6 +250,11 @@ Hero*/
 /*Coneccting*/
 .connecting p {
     font-size: 1.3125rem;
+}
+
+.connecting-space-card {
+    padding-left: 4.6875rem;
+    padding-right: 4.375rem;
 }
 
 .design-connecting {
@@ -423,7 +434,7 @@ Hero*/
 
 .text-connecting-regular {
     font-weight: 400;
-    font-size: 1.12rem;
+    font-size: 1.125rem;
 }
 
 /*testimonios*/
@@ -450,10 +461,20 @@ Hero*/
 /*Blog
 Hero*/
 .top-banner-blog {
-    background: url(../img/blog.png) no-repeat center center fixed;
-    background-size: cover;
-    height: 100vh;
+    background: url(../img/blog.png) no-repeat fixed;
+    background-size: unset;
+    min-height: 224px;
     overflow: hidden;
+}
+
+.top-banner h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.title-blog {
+    font-size: 2.375rem;
+    font-weight: 600;
 }
 
 /* FAQ */
@@ -465,13 +486,22 @@ Hero*/
 }
 
 .title-faq {
-    font-size: 2.37rem;
+    font-size: 2.375rem;
     font-weight: 600;
 }
 
 .accordion-button:not(.collapsed)::after {
     background-image: url(../img/icon-acordion-close.svg);
     transform: rotate(-180deg);
+}
+
+.accordion-body {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.accordion-item {
+    border: 1px solid #000;
 }
 
 .accordion-button::after {
@@ -498,4 +528,10 @@ Hero*/
     color: var(--black-color);
     font-size: 28px;
     font-weight: 600;
+}
+
+.carousel-faq {
+    font-size: 2.375rem;
+    font-weight: 600;
+    text-align: center;
 }

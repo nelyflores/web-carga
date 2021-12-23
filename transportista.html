@@ -27,8 +27,8 @@
                 </button>
                 <div class="collapse navbar-collapse align-self-stretch" id="navbarNavAltMarkup">
                     <div class="navbar-nav mx-auto  align-self-stretch">
-                        <a class="nav-link pt-4 pe-3 active" aria-current="page" href="embarcador.html">Embarcador</a>
-                        <a class="nav-link pt-4 pe-3" href="transportista.html">Transportista</a>
+                        <a class="nav-link pt-4 pe-3" aria-current="page" href="embarcador.html">Embarcador</a>
+                        <a class="nav-link pt-4 pe-3 active" href="transportista.html">Transportista</a>
                         <a class="nav-link pt-4 pe-3" href="blog.html">Blog</a>
                         <a class="nav-link pt-4 pe-3" href="FAQ.html">Preguntas Frecuentes</a>
                         <a class="nav-link pt-4 pe-3" href="#">Registrarse</a>
@@ -43,7 +43,7 @@
         <div class="container-fluid top-banner-transportista">
             <div class="container">
                 <div class="col-sm-4 ps-5 ms-3">
-                    <button class="button-white px-3 py-2">REGíSTRATE AHORA</button>
+                    <button class="button-white">REGíSTRATE AHORA</button>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
     <section class="about">
         <div class="container-fluid">
             <div class="row">
-                <div class="col align-self-center about-column me-5">
+                <div class="col-md-6 col-sm-12 align-self-center content-about">
                     <h2>¿Qué es <span class="text-green">Sendengo</span>?</h2>
                     <img class="my-4 pb-3" src="./img/icon-about.png" alt="¿Qué es sendengo?">
                     <p class="text-main text-black  mb-4">A través de una plataforma tecnológica, formamos una comunidad
@@ -65,8 +65,8 @@
                     </p>
                     <p class="text-main fw-bold text-green"> Somos Confianza + Profesionalización. </p>
                 </div>
-                <div class="col-6 pe-0">
-                    <img src="./img/transportista.png" class="img-fluid" alt="¿Qué es sendengo?">
+                <div class="col-md-6 col-sm-12 pe-0 ">
+                    <img src="./img/transportista.jpeg" class="img-fluid w-100" alt="¿Qué es sendengo?">
                 </div>
             </div>
         </div>
@@ -80,15 +80,15 @@
                     <p class="text-center text-white text-connecting-regular">Además, ofrecemos diferentes beneficios
                         orientados a tus
                         necesidades:</p>
-                    <div class="col-md-4 mt-5 mb-5 pb-5">
+                    <div class="col-md-4 mt-5 mb-5 pb-5 connecting-space-card" style="padding-left: 6rem;">
                         <img class="mx-auto d-block" src="./img/icon-desarrollo.png" alt="desarrollo">
                         <p class="text-white text-center text-connecting">Planes de desarrollo</p>
                     </div>
-                    <div class="col-md-4 mt-5 mb-5 pb-5">
+                    <div class="col-md-4 mt-5 mb-5 pb-5 connecting-space-card">
                         <img class="mx-auto d-block" src="./img/icon-tarifas.png" alt="tarifas competitivas">
                         <p class="text-white text-center text-connecting">Tarifas competitivas y adelantos de cargas</p>
                     </div>
-                    <div class="col-md-4 mt-5 mb-5 pb-5">
+                    <div class="col-md-4 mt-5 mb-5 pb-5 connecting-space-card">
                         <img class="mx-auto d-block" src="./img/icon-pago.png" alt="pago rapido">
                         <p class="text-white text-center text-connecting">El pago más rápido en la industria</p>
                     </div>
@@ -106,15 +106,15 @@
             <div class="row mb-5 mt-5 pt-5 pb-5">
                 <div class="col-md-6 d-flex align-items-start flex-column">
                     <img src="./img/rating.png" alt="rating" class="mb-4">
-                    <p class="text-testimonial">“Excelente oportunidad de trabajar con tus propias unidades la mejor app
-                        que he tenido
-                        Recomendado al 100, solo tardo unos 3 días para que me dieran de alta y enseguida empece a
-                        cargar.”</p>
+                    <p class="text-testimonial">“Con Sendengo tengo apoyo de un coordinador al asignar mi viaje,
+                        monitoreo y comunicación continua. Los procesos son ágiles y muy sencillos eso sin duda nos
+                        ayuda a crecer de manera constante y segura”</p>
                     <div class="d-flex align-items-center mt-auto">
-                        <img src="./img/efrain.png" alt="transportista">
+                        <img src="./img/testimonial.png" alt="transportista">
                         <div class="ms-3">
-                            <p class="text-testimonial mb-0 text-green semi-bold">Efrain Ángeles Pérez</p>
+                            <p class="text-testimonial mb-0 text-green semi-bold">José Carlos Morales</p>
                             <p class="text-testimonial mb-0">Transportista</p>
+                            <p>6 meses</p>
                         </div>
                     </div>
                 </div>
@@ -130,6 +130,7 @@
                         <div class="ms-3">
                             <p class="text-testimonial mb-0 text-green semi-bold ">Cristóbal Medina</p>
                             <p class="text-testimonial mb-0">Transportista</p>
+                            <p>4 años</p>
                         </div>
                     </div>
                 </div>
@@ -146,10 +147,10 @@
     </section>
     <!--Rutas-->
     <section class="container-fluid rutas">
-        <div class="container">
+        <div class="container ">
             <div class="row mt-5 mb-5 pt-5 pb-5">
                 <div class="col-md-6">
-                    <img src="./img/mapa.png" alt="rutas mexico">
+                    <img src="./img/mapa.png" alt="rutas mexico" class="img-fluid w-100">
                 </div>
                 <div class="col-md-6">
                     <h2><span class="text-green">Encontramos la ruta perfecta</span> para ti.</h2>
@@ -163,10 +164,11 @@
         </div>
     </section>
     <!--Carousel-->
-    <section class="container-fluid">
-        <div class="container">
+    <section class="container-fluid pb-5">
+        <div class="container pb-3">
             <div class="row">
-                <h2>Te llevamos <span class="text-green text-center">a cargar </span> con los grandes clientes. </h2>
+                <h2 class="pb-3">Te llevamos <span class="text-green text-center">a cargar </span> con los grandes
+                    clientes. </h2>
                 <div class="container text-center my-3">
                     <div class="row mx-auto my-auto d-flex justify-content-end">
                         <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -224,10 +226,12 @@
     <!--whatsapp-->
     <section>
         <div class="container-fluid whatsapp-banner d-flex align-items-center">
-            <div class="container">
-                <h2 class="text-white d-inline">Es muy fácil darte de alta</h2>
-                <span class="text-white whatsapp-span text-center"><i
-                        class="fas fa-arrow-right navbar-toggler-icon"></i></span>
+            <div class="container d-flex justify-content-between">
+                <div>
+                    <h2 class="text-white d-inline">Es muy fácil darte de alta</h2>
+                    <span class="text-white whatsapp-span text-center"><i
+                            class="fas fa-arrow-right navbar-toggler-icon"></i></span>
+                </div>
                 <button class="button-white px-3 py-2"> <i class="fab fa-whatsapp me-3"></i>Mándanos un
                     whatsapp</button>
             </div>
@@ -242,8 +246,8 @@
                     <img src="./img/google-play-badge-1.png" alt="google play" class="mx-auto d-block">
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="./img/sendengo-phone.png" alt="descarga la app" class="img-fluid">
+            <div class="col-md-6 p-0">
+                <img src="./img/sendengo-app.jpeg" alt="descarga la app" class="img-fluid ">
             </div>
         </div>
     </section>
