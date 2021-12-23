@@ -220,8 +220,17 @@
         flex-direction: column;
 
     }
-    .whats-embarcador-mobile span{
+
+    .whats-embarcador-mobile span {
         visibility: hidden;
+    }
+
+    .content-terminos {
+        flex-direction: column;
+    }
+
+    .content-terminos a {
+        padding-bottom: 11px;
     }
 
 }
