@@ -1,0 +1,82 @@
+@media (max-width: 575.98px) {
+    .top-banner h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+        line-height: 31px;
+        padding-bottom: 36px;
+    }
+
+    .embarcador-mobile {
+        justify-content: center !important;
+    }
+
+    .top-banner {
+        background-size: unset;
+        min-height: 350px;
+        overflow: hidden;
+        background-position: -162px 0px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .bottom-banner {
+        height: 95px;
+    }
+
+    .bottom-banner h3 {
+        font-size: 26px;
+    }
+
+    .content-about {
+        padding-left: 20px;
+        padding-top: 55px;
+    }
+
+    .content-about h2 {
+        font-size: 26px;
+    }
+
+    .design-connecting h2 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .connecting-space-card {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .button-white {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .button-connecting {
+        margin-top: 24px;
+    }
+
+    .container-team {
+        padding-left: 20px;
+    }
+
+    .imagen-team {
+        padding-left: 0;
+    }
+
+    .text-carousel-embarcador {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .whatsapp-banner {
+        height: 313px;
+        margin-bottom: 37px;
+    }
+
+    .whatsapp-banner button {
+        margin-top: 30px;
+    }
+
+}

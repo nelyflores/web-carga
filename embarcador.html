@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <title>Hello, world!</title>
+    <title>Sendengo</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mobilestyles.css">
 </head>
 
 <body>
@@ -48,7 +49,7 @@
                     <div class=" col-lg-8 col-md-8">
                         <h1>La Innovación que esperabas para transporte</h1>
                     </div>
-                    <div class="col-md-3 d-flex justify-content-end">
+                    <div class="col-md-3 d-flex justify-content-end embarcador-mobile">
                         <button class="button-white">REGÍSTRATE</button>
                     </div>
                 </div>
@@ -102,10 +103,10 @@
                         <p class="text-white text-center">Administración de evidencias, logística inversa y pago a
                             proveedores.</p>
                     </div>
-                    <div class="row mb-5 pb-4">
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <button class="button-white">CARGA CON NOSOTROS</button>
-                        </div>
+                </div>
+                <div class="row  pb-4">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <button class="button-white button-connecting">CARGA CON NOSOTROS</button>
                     </div>
                 </div>
             </div>
@@ -159,7 +160,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 pe-0">
+                <div class="col-md-6 pe-0 imagen-team">
                     <img src="./img/nosotros.png" alt="nuestro equipo" class="img-fluid w-100">
                 </div>
             </div>
@@ -170,44 +171,46 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="row pt-5">
-                    <h2 class="pb-4">Ellos <span class="text-green">encontraron una solución</span> como la que estás
+                    <h2 class="pb-4 text-carousel-embarcador">Ellos <span class="text-green">encontraron una
+                            solución</span> como
+                        la que estás
                         buscando. </h2>
                     <div class="container text-center my-3 pb-3">
-                        <div class="row mx-auto my-auto d-flex justify-content-end">
+                        <div class="row mx-auto my-auto d-flex justify-content-end gx-5">
                             <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
-                                        <div class="col-3">
-                                            <img src="./img/carousel/unilever.png" class="img-fluid">
+                                        <div class="col-md-3 col-sm-6">
+                                            <img src="./img/carousel/unilever.png" class="img-fluid ">
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <div class="col-3">
+                                        <div class="col-md-3 col-sm-6">
                                             <img src="./img/carousel/procter-gamble.png" class="img-fluid mx-auto">
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <div class="col-3">
+                                        <div class="col-md-3 col-sm-6">
                                             <img src="./img/carousel/grupo-modelo.png" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <div class="col-3">
+                                        <div class="col-md-3 col-sm-6">
                                             <img src="./img/carousel/mattel.png" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <div class="col-3">
+                                        <div class="col-md-3 col-sm-6">
                                             <img src="./img/carousel/waldos.png" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <div class="col-3">
+                                        <div class="col-md-3 col-sm-6">
                                             <img src="./img/carousel/ze-ventures.png" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <div class="col-3">
+                                        <div class="col-md-3 col-sm-6">
                                             <img src="./img/carousel/officemax.png" class="img-fluid">
                                         </div>
                                     </div>
@@ -233,14 +236,14 @@
             <div class="container">
                 <h2 class="text-white d-inline">Estamos listos para trabajar contigo </h2>
                 <span class="text-white whatsapp-span text-center pe-2"><i
-                        class="fas fa-arrow-right navbar-toggler-icon"></i></span>
+                        class="fas fa-arrow-right navbar-toggler-icon d-none d-sm-block"></i></span>
                 <button class="button-white"> <i class="fab fa-whatsapp me-3"></i>Mándanos
                     whatsapp</button>
             </div>
         </div>
     </section>
     <!--News-->
-    <section>
+    <section class="d-none d-sm-block">
         <div class="container-fluid mb-5 mt-5">
             <div class="container">
                 <h2 class="my-5">Sendengo, una startup sobresaliente</h2>
@@ -277,7 +280,7 @@
         </div>
     </section>
     <!--blog-->
-    <section class="section-blog">
+    <section class="section-blog d-none d-sm-block">
         <div class="container-fluid">
             <div class="container">
                 <h2 class="mb-5 mt-5 pt-5">Mantente en contacto con nosotros</h2>
