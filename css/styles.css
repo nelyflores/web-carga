@@ -80,12 +80,14 @@ body {
     color: var(--primary-color);
     background: var(--white-color);
     font-size: 1.625em;
+    padding: 12px 28px;
 
 }
 
 .button-white-home:hover {
     background-color: var(--primary-color);
     color: var(--white-color) !important;
+
 }
 
 h1 {
@@ -177,6 +179,10 @@ h2 {
 .botones-home-space {
     width: 100vh;
     justify-content: space-between
+}
+
+.botones-home {
+    margin-bottom: 51px;
 }
 
 /*carousel*/
