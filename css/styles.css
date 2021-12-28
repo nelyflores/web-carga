@@ -127,6 +127,10 @@ h2 {
     height: 72px;
 }
 
+.navbar-brand {
+    padding-top: 16px;
+}
+
 .navbar .navbar-nav .nav-link:hover {
     background-color: var(--primary-color);
     color: var(--white-color);
@@ -524,10 +528,11 @@ Hero*/
 /*Blog
 Hero*/
 .top-banner-blog {
-    background: url(../img/blog.png) no-repeat fixed;
-    background-size: unset;
-    min-height: 224px;
-    overflow: hidden;
+    background: url(../img/blog.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding: 8.5rem 0 4.9rem 0;
+
 }
 
 .top-banner h1 {
@@ -542,10 +547,11 @@ Hero*/
 
 /* FAQ */
 .top-banner-faq {
-    background: url(../img/FAQs.png) no-repeat fixed;
-    background-size: unset;
-    min-height: 221px;
-    overflow: hidden;
+    background: url(../img/FAQs.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding: 8.5rem 0 4.9rem 0;
+
 }
 
 .title-faq {
