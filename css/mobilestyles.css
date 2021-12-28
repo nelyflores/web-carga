@@ -1,6 +1,6 @@
 @media (max-width: 575.98px) {
     .top-banner h1 {
-        font-size: 1.5rem;
+        font-size: 24px;
         font-weight: 500;
         text-align: center;
         line-height: 31px;
@@ -21,8 +21,11 @@
         align-items: center;
     }
 
+
+
     .bottom-banner {
-        height: 95px;
+        height: 60px;
+        align-items: center !important;
     }
 
     .bottom-banner h3 {
@@ -32,6 +35,7 @@
     .content-about {
         padding-left: 20px;
         padding-top: 55px;
+        padding-bottom: 55px;
     }
 
     .content-about h2 {
@@ -39,8 +43,9 @@
     }
 
     .design-connecting h2 {
-        font-size: 26px;
-        line-height: 35px;
+        font-size: 20px;
+        line-height: 32px;
+        padding-top: 0 !important;
     }
 
     .connecting-space-card {
@@ -48,9 +53,15 @@
         margin-bottom: 0 !important;
     }
 
+    .text-connecting {
+        font-size: 18px !important;
+        line-height: 30px;
+    }
+
     .button-white {
         padding-left: 18px;
         padding-right: 18px;
+        font-size: 1.25em;
     }
 
     .button-connecting {
@@ -59,6 +70,12 @@
 
     .container-team {
         padding-left: 20px;
+    }
+
+    .container-team h2 {
+        font-size: 28px;
+        line-height: 34px;
+
     }
 
     .imagen-team {
@@ -71,7 +88,7 @@
     }
 
     .whatsapp-banner {
-        height: 313px;
+        height: 200px;
         margin-bottom: 37px;
     }
 
@@ -102,6 +119,18 @@
         display: flex;
         justify-content: center;
         margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-partner h2 {
+        font-size: 28px;
+
+    }
+
+    .content-partner img {
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
     .text-connecting-regular {
@@ -136,6 +165,7 @@
 
     .conten-whats-transportista h2 {
         display: inline;
+        font-size: 24px;
     }
 
     .whatsapp-banner {
@@ -144,8 +174,12 @@
 
     .content-app {
         padding: 0 !important;
-        margin-top: 80px;
-        margin-bottom: 64px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .content-app p {
+        font-size: 24px;
     }
 
     .carrusel-faq h2 {
@@ -154,7 +188,7 @@
     }
 
     .whats-banner-faq {
-        height: 237px !important;
+        height: 170px !important;
     }
 
     .content-whats-faq {
@@ -162,8 +196,18 @@
 
     }
 
+    .content-whats-faq h2 {
+        font-size: 20px;
+    }
+
     .content-whats-faq button {
         margin-bottom: 20px;
+        margin-top: 0 !important;
+    }
+
+    .section-registro {
+        padding-bottom: 0 !important;
+        margin-bottom: 30px !important;
     }
 
     .navbar .container {
@@ -195,6 +239,7 @@
     .botones-home {
         flex-direction: column;
         align-items: center;
+        margin-bottom: 0;
     }
 
     .botones-home-space {
@@ -205,6 +250,10 @@
 
     .bottom-banner {
         position: initial;
+    }
+
+    .bottom-banner h3 {
+        font-size: 1.25em;
     }
 
     .button-home-embarcador {
@@ -221,8 +270,14 @@
 
     }
 
+    .whats-embarcador-mobile h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
     .whats-embarcador-mobile span {
         visibility: hidden;
+        display: none;
     }
 
     .content-terminos {
@@ -231,6 +286,67 @@
 
     .content-terminos a {
         padding-bottom: 11px;
+    }
+
+    .footer-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-testimonial {
+        font-size: 16px;
+    }
+
+    .testimonial-mobile {
+        margin: 0 !important;
+    }
+
+    .rutas-mobile {
+        padding-bottom: 0 !important;
+        margin-bottom: 30px !important;
+    }
+
+    .section-blog h2 {
+        font-size: 24px;
+        line-height: 30px;
+        padding: 0 !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .accordion-button {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .accordion-button:not(.collapsed) {
+        font-size: 20px;
+    }
+
+    .accordion-body {
+        font-size: 16px;
+    }
+
+    .title-faq {
+        font-size: 28px;
+    }
+
+    .button-green {
+        font-size: 20px;
+    }
+
+    .top-banner-blog h1 {
+        font-size: 24px;
+    }
+
+    .top-banner-faq h1 {
+        font-size: 24px;
     }
 
 }
