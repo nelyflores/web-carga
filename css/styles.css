@@ -164,6 +164,25 @@ h2 {
     background-color: #000;
 }
 
+.img-news:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.img_section figure a img {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+    height: 300;
+    width: 200;
+}
+
+.img_section figure:hover img {
+    transform: scale(1.3);
+    box-shadow: 10px 10px 5px #000000;
+    -moz-box-shadow: 0px 10px 5px #000000;
+    -webkit-box-shadow: 0px 10px 5px #000000;
+}
+
 /*Home*/
 .home {
     background: url(../img/slider.png) no-repeat center center;
@@ -247,11 +266,11 @@ h2 {
 /*Embarcador
 Hero*/
 .top-banner {
-    background: url(../img/bg-banner.png) no-repeat center;
+    background: url(../img/slider-embarcador.png) no-repeat center;
     background-size: cover;
     width: 100%;
     padding: 14.5rem 0 4.9rem 0;
-    ;
+    height: 444px;
 }
 
 .bottom-banner {
@@ -322,6 +341,16 @@ Hero*/
 .whatsapp-span i {
     padding-top: 0.3125rem;
     font-size: 1.75rem;
+}
+
+.section-whatsapp {
+    margin-top: 36px;
+    margin-bottom: 56px;
+}
+
+/*News*/
+.section-news {
+    margin-top: 87px;
 }
 
 /*Blog*/
@@ -449,11 +478,21 @@ Hero*/
     background: url(../img/slider-transportista.png) no-repeat center;
     background-size: cover;
     width: 100%;
-    padding: 19.3rem 0 4.9rem 0;
+    /* padding: 19.3rem 0 4.9rem 0;*/
+    height: 444px;
+    display: flex;
+    align-content: center;
+    align-items: center;
 }
 
 .text-connecting {
     font-size: 1.31rem;
+    line-height: 54px;
+}
+
+.content-button-embarcador h1 {
+    font-size: 36px;
+    margin-bottom: 45px;
 }
 
 .text-connecting-regular {
