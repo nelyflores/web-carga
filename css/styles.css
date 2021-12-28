@@ -275,6 +275,7 @@ Hero*/
     width: 100%;
     padding: 14.5rem 0 4.9rem 0;
     height: 444px;
+    margin-top: 72px;
 }
 
 .bottom-banner {
@@ -487,6 +488,7 @@ Hero*/
     display: flex;
     align-content: center;
     align-items: center;
+    margin-top: 72px;
 }
 
 .text-connecting {
@@ -532,6 +534,7 @@ Hero*/
     background-size: cover;
     width: 100%;
     padding: 8.5rem 0 4.9rem 0;
+    margin-top: 72px;
 
 }
 
@@ -551,6 +554,7 @@ Hero*/
     background-size: cover;
     width: 100%;
     padding: 8.5rem 0 4.9rem 0;
+    margin-top: 72px;
 
 }
 
