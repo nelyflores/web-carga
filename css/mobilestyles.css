@@ -248,6 +248,10 @@
         width: auto;
     }
 
+    .home h3 {
+        font-size: 18px !important;
+    }
+
     .bottom-banner {
         position: initial;
     }
