@@ -123,6 +123,10 @@
         align-items: center;
     }
 
+    .content-button-embarcador h1 {
+        margin-bottom: 0.8125em;
+    }
+
     .content-partner h2 {
         font-size: 28px;
 
@@ -165,7 +169,11 @@
 
     .conten-whats-transportista h2 {
         display: inline;
-        font-size: 24px;
+        font-size: 1.25em;
+    }
+
+    .conten-whats-transportista span {
+        font-size: 1.25em;
     }
 
     .whatsapp-banner {
@@ -277,7 +285,7 @@
     }
 
     .whatsapp-banner .button-white {
-        font-size: 23px;
+        font-size: 1.25em;
     }
 
     .whats-embarcador-mobile {
@@ -287,7 +295,7 @@
     }
 
     .whats-embarcador-mobile h2 {
-        font-size: 24px;
+        font-size: 1.25em;
         line-height: 32px;
     }
 
