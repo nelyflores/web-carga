@@ -228,9 +228,12 @@
     }
 
     .home {
-        background: url(../img/slider-mobile.png) no-repeat 0 -20px;
+        background: url(../img/slider-mobile.png) no-repeat;
+        background-position: center 1.1375em;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         background-size: cover;
-        min-height: 100vh;
+        background-color: #464646;
         padding-bottom: 0;
 
 
@@ -240,12 +243,21 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 0;
+        min-height: 54vh;
+        justify-content: space-between;
     }
 
     .botones-home-space {
-        flex-direction: column;
-        padding-bottom: 64px;
+        flex-direction: column-reverse;
         width: auto;
+    }
+
+    .button-transportista {
+        margin-bottom: 11.625em;
+    }
+
+    .button-home-embarcador {
+        margin-right: 0 !important;
     }
 
     .home h3 {
