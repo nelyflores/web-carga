@@ -608,3 +608,12 @@ Hero*/
     font-weight: 600;
     text-align: center;
 }
+
+.banner-blog-post {
+    margin-top: 4.5em
+}
+
+.blog-post p {
+    text-align: justify;
+
+}
