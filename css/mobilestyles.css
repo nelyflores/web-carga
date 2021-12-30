@@ -258,37 +258,34 @@
         flex-direction: column-reverse;
         width: auto;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         width: auto;
         height: 84vh;
     }
 
     .button-white-home {
-        font-size: 1.25em;
+        font-size: 1em;
+        padding: 9px 18px;
     }
 
     .button-transportista {
-        margin-top: 86px;
+        margin-top: 12.8125em;
     }
 
     .button-home-embarcador {
         margin-right: 0 !important;
-        margin-top: 31px;
+        margin-bottom: 3.8125em;
     }
 
     .home h3 {
         font-size: 18px !important;
     }
 
-    .bottom-banner {}
 
     .bottom-banner h3 {
         font-size: 1.25em;
     }
 
-    .button-home-embarcador {
-        margin-bottom: 37px;
-    }
 
     .whatsapp-banner .button-white {
         font-size: 1.25em;
