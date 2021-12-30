@@ -280,9 +280,7 @@
         font-size: 18px !important;
     }
 
-    .bottom-banner {
-        position: initial;
-    }
+    .bottom-banner {}
 
     .bottom-banner h3 {
         font-size: 1.25em;
@@ -324,6 +322,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .footer-mobile p {
+        text-align: center;
     }
 
     .text-testimonial {
