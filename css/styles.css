@@ -145,6 +145,11 @@ h2 {
     color: var(--white-color);
 }
 
+.navbar .navbar-nav .nav-link.show {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
 .nav-link:hover {
     color: var(--white-color) !important;
 }
@@ -172,6 +177,39 @@ h2 {
     background-color: #000;
 }
 
+.dropdown-menu {
+    background-color: #000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px !important;
+    top: 71px !important;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-item {
+    color: var(--white-color);
+}
+
+
+.dropdown-toggle {
+    height: 100%;
+}
+
+.nav-item a:hover {
+    color: var(--white-color);
+}
+
+li a.dropdown-item:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color) !important;
+}
+
 .img-news:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
@@ -195,7 +233,7 @@ h2 {
 .home {
     background: url(../img/slider.png) no-repeat center center;
     background-size: cover;
-    min-height: 88vh;
+    min-height: 95vh;
     display: flex;
     align-items: end;
     padding-bottom: 50px;

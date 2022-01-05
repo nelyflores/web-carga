@@ -10,14 +10,14 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <title>Document</title>
+    <title>Aviso de privacidad</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <!--Header-->
     <header>
-        <nav class="navbar navbar-expand-lg navigation-wrap pb-0 pt-0">
+        <nav class="navbar fixed-top navbar-expand-lg navigation-wrap pb-0 pt-0">
             <div class="container align-self-stretch">
                 <a class="navbar-brand" href="index.html"><img src="./img/logo-sendengo.png" alt="sendengo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -27,12 +27,21 @@
                 </button>
                 <div class="collapse navbar-collapse align-self-stretch" id="navbarNavAltMarkup">
                     <div class="navbar-nav mx-auto  align-self-stretch">
-                        <a class="nav-link pt-4 pe-3 active" aria-current="page" href="embarcador.html">Embarcador</a>
+                        <a class="nav-link pt-4 pe-3 " aria-current="page" href="embarcador.html">Embarcador</a>
                         <a class="nav-link pt-4 pe-3" href="transportista.html">Transportista</a>
                         <a class="nav-link pt-4 pe-3" href="blog.html">Blog</a>
                         <a class="nav-link pt-4 pe-3" href="FAQ.html">Preguntas Frecuentes</a>
-                        <a class="nav-link pt-4 pe-3" href="#">Registrarse</a>
-                        <a class="nav-link pt-4 pe-3" href="#">Iniciar sesión</a>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle pt-4 pe-3" id=" navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" href="#">Registrarse</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item"
+                                        href="https://sendengo.com/registro/embarcador/">Embarcador</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://sendengo.com/registro/transportista/">Transportista</a></li>
+                            </ul>
+                        </div>
+                        <a class="nav-link pt-4 pe-3" href="https://sendengo.com/login">Iniciar sesión</a>
                     </div>
                 </div>
             </div>

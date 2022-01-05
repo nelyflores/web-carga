@@ -20,7 +20,7 @@
     <!--Header-->
     <header>
         <nav class="navbar fixed-top navbar-expand-lg navigation-wrap pb-0 pt-0">
-            <div class="container align-self-stretch nav-mobile">
+            <div class="container align-self-stretch">
                 <a class="navbar-brand" href="index.html"><img src="./img/logo-sendengo.png" alt="sendengo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -29,12 +29,21 @@
                 </button>
                 <div class="collapse navbar-collapse align-self-stretch" id="navbarNavAltMarkup">
                     <div class="navbar-nav mx-auto  align-self-stretch">
-                        <a class="nav-link pt-4 pe-3" aria-current="page" href="embarcador.html">Embarcador</a>
+                        <a class="nav-link pt-4 pe-3 " aria-current="page" href="embarcador.html">Embarcador</a>
                         <a class="nav-link pt-4 pe-3" href="transportista.html">Transportista</a>
                         <a class="nav-link pt-4 pe-3" href="blog.html">Blog</a>
                         <a class="nav-link pt-4 pe-3 active" href="FAQ.html">Preguntas Frecuentes</a>
-                        <a class="nav-link pt-4 pe-3" href="#">Registrarse</a>
-                        <a class="nav-link pt-4 pe-3" href="#">Iniciar sesión</a>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle pt-4 pe-3" id=" navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" href="#">Registrarse</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item"
+                                        href="https://sendengo.com/registro/embarcador/">Embarcador</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://sendengo.com/registro/transportista/">Transportista</a></li>
+                            </ul>
+                        </div>
+                        <a class="nav-link pt-4 pe-3" href="https://sendengo.com/login">Iniciar sesión</a>
                     </div>
                 </div>
             </div>
